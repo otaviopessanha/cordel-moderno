@@ -79,8 +79,7 @@ section#livro {
 section p {
     font-size: 4vw;
     font-family: var(--poema);
-    padding: 5px;
-    margin: 15px 0px;
+    padding-bottom: 2em;
     border-radius: 5px;
 }
 
