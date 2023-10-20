@@ -21,6 +21,11 @@
     padding: 0%;
 }
 
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
 header {
     text-align: center;
     color: white;
@@ -32,6 +37,7 @@ header {
 header h1 {
     font-family: var(--titulo);
     font-weight: bolder;
+    font-variant: small-caps;
     font-size: 10vw;
 }
 
@@ -41,7 +47,15 @@ header p {
 }
 
 section {
-    padding: 15px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.class {
+    background-color: white;
+    color: black;
 }
 
 section#flor {
@@ -67,6 +81,7 @@ section p {
     font-family: var(--poema);
     padding: 5px;
     margin: 15px 0px;
+    border-radius: 5px;
 }
 
 p.destaque {
@@ -76,7 +91,7 @@ p.destaque {
 }
 
 footer{
-    background-color: black;
+    background-color: rgba(0, 0, 0);
 }
 
 footer p {
@@ -97,5 +112,5 @@ a::after {
 
 a:hover {
     text-decoration: underline;
-    color: rgba(255, 255, 255, 0.800);
+    color: rgb(165, 165, 165);
 }
